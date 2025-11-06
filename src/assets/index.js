@@ -14,7 +14,7 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import nodejs from "./company/swift.webp";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import landing from "./landing.png";
@@ -26,13 +26,16 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+//import shopify from "./company/shopify.web";
+import shopify from "../assets/company/shopify.webp"
+import starbucks from "./company/belike.png";
+import tesla from "./company/social.png";
+// import h1 from "./company/swift.webp";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 
 export {
   logo,

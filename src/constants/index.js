@@ -27,6 +27,7 @@ import {
     threejs,
   } from "../assets";
   
+  
   export const navLinks = [
     {
       id: "about",
@@ -90,14 +91,14 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -119,39 +120,51 @@ import {
   const experiences = [
     {
       title: "Web Developer",
-      company_name: "Smash-Code",
+      company_name: "Belike Group",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2023 - April 2023",
+      date: "June 2024 - Cuurent",
+      points: [
+        "Developed and maintained web applications using React.js and other related technologies, including Bootstrap and Tailwind CSS.",
+        "Utilized Redux for state management, optimizing the efficiency of the applications.",
+        "Implemented robust user authentication systems, catering to both admin users and sub-admins.",
+
+      ],
+    },
+    {
+      title: "ReactJs Developer",
+      company_name: "Social Swirl",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "July - Current",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Developing ecommerce-related products during my tenure at the company.",
-      ],
-    },
-    {
-      title: "Next.js Developer",
-      company_name: "Zysoftec",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "April 2023 - August 2023",
-      points: [
-        "Developed and maintained web applications using React.js and other related technologies, including Next.js and Tailwind CSS.",
-        "Utilized Redux for state management, optimizing the efficiency of the applications.",
-        "Leveraged jQuery to enhance interactive elements and user interfaces.",
-        "Implemented robust user authentication systems, catering to both admin users and sub-admins.",
+        "Developing Business Website and also add Live Graph throup Api.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Freelancer",
+      company_name: "Fiver",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Nov 2022 - April 2023",
+      date: "June 2024 - Current",
       points: [
         "Worked as a web developer on freelancing platforms, delivering tailored solutions to diverse clients.",
         "Developed projects for both offline and online marketplaces, catering to a wide range of business needs.",
+        ,
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Swift Media Marketing",
+      icon: nodejs,
+      iconBg: "#383E56",
+      date: "June 2024 - Current",
+      points: [
+       "Developed and maintained web applications using React.js and other related technologies, including HTML CSS Bootstrap and Tailwind CSS.",
+        "Utilized usestate and useeffect for state management, optimizing the efficiency of the applications.",
         ,
       ],
     },
